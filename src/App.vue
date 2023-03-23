@@ -5,6 +5,7 @@
   import ListaDeTarefas from './components/ListaDeTarefas.vue';
 
   const estado = reactive({
+  filtro: 'todas',
   tarefaTemp: '',
   tarefas: [
     {
